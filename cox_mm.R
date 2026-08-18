@@ -5,7 +5,7 @@ usage <- function(status = 0L) {
     paste0(
       "Fit per-variant Cox models for donor-recipient genomic mismatches.\n\n",
       "Usage:\n",
-      "  Rscript 3.Cox_light.R --pheno FILE --recipient-dosage FILE \\\n",
+      "  Rscript cox_mm.R --pheno FILE --recipient-dosage FILE \\\n",
       "    --donor-dosage FILE --output FILE [options]\n\n",
       "Required arguments:\n",
       "  --pheno FILE              Phenotype/covariate table\n",

@@ -9,9 +9,9 @@
 show_help() {
   cat <<EOF
 Usage:
-  sbatch 1.compute_MM.sh <vcf_dir> <pairs> <outdir>
-  sbatch 1.compute_MM.sh --vcf /path/to/all_chr.vcf.gz --pairs pairs.txt --outdir /path/to/out
-  sbatch 1.compute_MM.sh --vcf-dir /path/to/vcfs --pairs pairs.txt --outdir /path/to/out
+  sbatch compute_gw_mm.sh <vcf_dir> <pairs> <outdir>
+  sbatch compute_gw_mm.sh --vcf /path/to/all_chr.vcf.gz --pairs pairs.txt --outdir /path/to/out
+  sbatch compute_gw_mm.sh --vcf-dir /path/to/vcfs --pairs pairs.txt --outdir /path/to/out
 
 Positional arguments (deprecated, still supported):
   vcf_dir   Directory containing chr1.vcf.gz, chr2.vcf.gz, ... chr22.vcf.gz
